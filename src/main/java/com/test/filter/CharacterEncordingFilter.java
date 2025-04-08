@@ -13,6 +13,9 @@ import javax.servlet.annotation.WebFilter;
 * 문자 인코딩 필터
 * 모든 요청에 대해 UTF-8 인코딩을 자동으로 설정하는 필터
 */
+
+// 주석 추가!!!!!!!!!
+
 @WebFilter("/*")  // 모든 URL 패턴에 필터 적용
 public class CharacterEncordingFilter implements Filter {
 
@@ -26,6 +29,9 @@ public class CharacterEncordingFilter implements Filter {
     * @throws IOException 입출력 예외 발생 시
     * @throws ServletException 서블릿 예외 발생 시
     */
+	
+	// 주석 내용 추가
+	
    @Override
    public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain)
            throws IOException, ServletException {
