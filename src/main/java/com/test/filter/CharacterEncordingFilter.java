@@ -15,6 +15,7 @@ import javax.servlet.annotation.WebFilter;
 */
 
 // 주석 추가!!!!!!!!!
+//주석 또 추가
 
 @WebFilter("/*")  // 모든 URL 패턴에 필터 적용
 public class CharacterEncordingFilter implements Filter {
